@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    background-color: rgb(189, 216, 248);
+}
+
+.img-carousel-1{
+    width: 100%;
+}
+
+.img-border{
+    border: 2.5px solid #fff;
+    border-radius: 50px;
+}
+
+.img-entr{
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+}
+
+footer{
+    padding: 50px;
+}
+
+.gallery{
+    width: 80%;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 10px 10px;
+}
+
+h2{
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 20px 10px;
+}
+
+label{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+p{
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 0px 32px;
+}
+
+.description{
+    padding-right: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.res{
+    width: 50%;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.res2{
+    width: 30%;
+    height: 400px;
+    padding-left: 33px;
+    padding-right: 20px;
+}
+
+@media (max-width:960px) {
+    .flex-mobile{
+        flex-wrap: wrap-reverse;
+    }
+    .description{
+        padding: 16px 16px;
+    }
+    .gallery-flex{
+        flex-wrap: wrap;
+        gap: 30px;   
+    }
+    .res{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .res2{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+}
